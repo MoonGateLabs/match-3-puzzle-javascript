@@ -1,0 +1,34 @@
+{
+    "name": "Match 3 Puzzle",
+    "title": "Match 3 Puzzle",
+    "description": "JS examples for use in a match 3-4-5 type puzzle game",
+    "version": "0.0.1",
+    "main": "build/matchBruteForce.js",
+    "homepage": "http://moongatelabs.com",
+    "author": {
+        "name": "Moon Gate Labs Inc.",
+        "url": "https://github.com/MoonGateLabs/match-3-puzzle-javascript/blob/master/AUTHORS.txt"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MoonGateLabs/match-3-puzzle-javascript.git"
+    },
+    "keywords": [
+        "javascript",
+        "puzzle",
+        "video game",
+        "library"
+    ],
+    "bugs": {
+        "url": "https://github.com/MoonGateLabs/match-3-puzzle-javascript/issues"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "chai": "3.2.0"
+    },
+    "scripts": {
+        "build": "npm install && grunt",
+        "test": "grunt && grunt test"
+    }
+}
